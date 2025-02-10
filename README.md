@@ -1,3 +1,1 @@
-# React + TypeScript + Vite
-
-Learn basic typescript 👨‍💻
+Learn basic Typescript 👨‍💻
