@@ -3,6 +3,7 @@ import Button from "./Button";
 import { GlobalProvider } from "./useGlobal";
 import GenericButton from "./GenericButton";
 import Fetch from "./Fetch";
+import { Example } from "./Generic2";
 
 // Generics better than any because we can set the function will receive and return with the same type? if we use any it will lose the return type?
 // other reason is we can catch the error if we use generics, but if we use any, it will not catch error at compiler, but error in runtime
@@ -75,6 +76,7 @@ function App() {
           countHistory={["5", "8"]}
         ></GenericButton>
         <Fetch />
+        <Example />
       </div>
     </GlobalProvider>
   );
